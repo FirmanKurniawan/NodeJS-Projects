@@ -1,0 +1,16 @@
+{
+  "name": "google-play-scraper-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aryarfani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "google-play-scraper": "git+https://github.com/facundoolano/google-play-scraper"
+  }
+}
