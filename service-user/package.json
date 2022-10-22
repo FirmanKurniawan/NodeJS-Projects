@@ -1,0 +1,20 @@
+{
+  "name": "service-user",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^14.2.0",
+    "express": "~4.16.1",
+    "fastest-validator": "^1.12.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.14.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
